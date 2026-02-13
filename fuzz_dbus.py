@@ -37,7 +37,7 @@ def is_calendar_running():
 # 生成随机 GUID 作为 payload
 def generate_guid_payload():
     """生成随机 GUID 作为测试 payload"""
-    return "xxxxx_" + str(uuid.uuid4())
+    return "xxxxx_" + str(uuid.uuid4()) + "_`dde-calendar`"
 
 
 def parse_introspect_xml(xml_data: str) -> Dict:
